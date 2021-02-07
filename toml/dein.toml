@@ -1,0 +1,134 @@
+# TODO: lazy custom
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'cocopon/iceberg.vim'
+hook_add = '''
+    set bg=dark
+    colorscheme iceberg
+'''
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+    execute 'source ' . g:vim_dir . '/plugin/setup_statusbar.vim'
+'''
+
+[[plugins]]
+repo = 'vim-scripts/ingo-library'
+depends = ['SyntaxRange']
+
+[[plugins]]
+repo = 'vim-scripts/SyntaxRange'
+
+# TODO: learn
+[[plugins]]
+repo = 'SirVer/ultisnips'
+
+# TODO: not working
+[[plugins]]
+repo = 'preservim/tagbar'
+
+[[plugins]]
+repo = 'jiangmiao/auto-pairs'
+
+# TODO: learn
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+
+# TODO: learn
+[[plugins]]
+repo = 'markonm/traces.vim'
+
+[[plugins]]
+repo = 'unblevable/quick-scope'
+
+# TODO: learn
+[[plugins]]
+repo = 'mhinz/vim-grepper'
+
+[[plugins]]
+repo = 'osyo-manga/vim-anzu'
+
+# TODO: learn
+[[plugins]]
+repo = 'haya14busa/vim-asterisk'
+
+# TODO: sarch
+[[plugins]]
+repo = 'terryma/vim-expand-region'
+
+# TODO: learn
+[[plugins]]
+repo = 'junegunn/vim-easy-align'
+
+# TODO: learn
+[[plugins]]
+repo = 'mg979/vim-xtabline'
+
+# TODO: learn
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
+# TODO: learn
+[[plugins]]
+repo = 'tpope/vim-surround'
+
+# TODO: search
+[[plugins]]
+repo = 'tpope/vim-repeat'
+
+# TODO: learn
+[[plugins]]
+repo = 'tpope/vim-commentary'
+
+# TODO: learn
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+
+# TODO: not working
+[[plugins]]
+repo = 'junegunn/fzf'
+depends = ['fzf.vim']
+build_on = '''
+    ./install -all
+'''
+
+# TODO: not working
+[[plugins]]
+repo = 'junegunn/fzf.vim'
+
+# TODO: learn
+[[plugins]]
+repo = 'preservim/nerdtree'
+hook_add = '''
+    nnoremap <Space>nt :NERDTreeToggle
+'''
+
+# TODO: learn
+[[plugins]]
+repo = 'Shougo/denite.nvim'
+depends = ['neomru']
+
+# TODO: learn
+[[plugins]]
+repo = 'Shougo/neomru.vim'
+
+# TODO: learned but more
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+hook_add = '''
+    let g:deoplete#enable_at_startup = 1
+'''
+
+[[plugins]]
+repo = 'Shougo/neosnippet.vim'
+depends = ['neosnippet-snippets']
+hook_add = '''
+    execute 'source ' . g:vim_dir . '/plugin/setup_complete.vim'
+'''
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+
