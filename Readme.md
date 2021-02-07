@@ -4,7 +4,7 @@ NeoVimの設定ファイル。
 起動時にプラグインのインストールを自動的に開始する。
 
 
-## Requirements
+## Requirement
 NeoVim 0.3+
 
 
