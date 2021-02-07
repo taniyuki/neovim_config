@@ -1,13 +1,22 @@
 ## Introduction
-NeoVimの設定ファイル。
 
-起動時にプラグインのインストールを自動的に開始する。
+Neovimの設定ファイル。
 
 
 ## Requirements
-NeoVim 0.3+
+
+- Neovim
+
+
+## Installation
+
+mv ~/.config/nvim ~/.config/nvim.bak
+git clone https://github.com/taniyuki/neovim_config ~/.config/nvim
 
 
 ## TODO
-fzf.vim と tagbar.vim が動作していないため修正する。
-各Pluginの使用方法をまとめたドキュメントを作成する。
+
+- fzf.vim と tagbar.vim が動作していないため修正する。
+
+- インストールされるPluginとその使用方法をドキュメントにまとめる。
+
