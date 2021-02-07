@@ -10,9 +10,8 @@ Neovimの設定ファイル。
 
 ## Installation
 
->>> mv ~/.config/nvim ~/.config/nvim.bak
-
->>> git clone https://github.com/taniyuki/neovim_config ~/.config/nvim
+> mv ~/.config/nvim ~/.config/nvim.bak
+> git clone https://github.com/taniyuki/neovim_config ~/.config/nvim
 
 
 ## TODO
