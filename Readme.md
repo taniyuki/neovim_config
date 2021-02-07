@@ -10,4 +10,4 @@ NeoVim 0.3+
 
 ## TODO
 fzf.vim と tagbar.vim が動作していないため修正する。
-
+各Pluginの使用方法をまとめたドキュメントを作成する。
