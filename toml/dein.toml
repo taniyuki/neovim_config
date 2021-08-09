@@ -22,10 +22,6 @@ depends = ['SyntaxRange']
 [[plugins]]
 repo = 'vim-scripts/SyntaxRange'
 
-# TODO: learn
-[[plugins]]
-repo = 'SirVer/ultisnips'
-
 # TODO: not working
 [[plugins]]
 repo = 'preservim/tagbar'
@@ -131,4 +127,10 @@ hook_add = '''
 
 [[plugins]]
 repo = 'Shougo/neosnippet-snippets'
+
+[[plugins]]
+repo = 'kamykn/spelunker.vim'
+
+[[plugins]]
+repo = 'dense-analysis/ale'
 
